@@ -1,6 +1,7 @@
 ---
 title: "{{title}}"
 tags:
+- evergreen
 ---
 
 > [!todo] Todo:
