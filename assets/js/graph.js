@@ -85,7 +85,7 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
       d.fy = null
     }
 
-    const noop = () => { }
+    const noop = () => {}
     return d3
       .drag()
       .on("start", enableDrag ? dragstarted : noop)
@@ -93,7 +93,7 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
       .on("end", enableDrag ? dragended : noop)
   }
 
-  const height = Math.max(container.offsetHeight, isHome ? 500 : 250)
+  const height = Math.max(container.offsetHeight, isHome ? 790 : 250)
   const width = container.offsetWidth
 
   const simulation = d3
@@ -179,7 +179,7 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
         }
       })
     })
-    .on("mouseover", function(_, d) {
+    .on("mouseover", function (_, d) {
       d3.selectAll(".node").transition().duration(100).attr("fill", "var(--g-node-inactive)")
 
       const neighbours = parseIdsFromLinks([
@@ -212,7 +212,7 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
         .style('font-size', bigFont + 'em')
         .attr('dy', d => nodeRadius(d) + 20 + 'px') // radius is in px
     })
-    .on("mouseleave", function(_, d) {
+    .on("mouseleave", function (_, d) {
       d3.selectAll(".node").transition().duration(200).attr("fill", color)
 
       const currentId = d.id
