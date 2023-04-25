@@ -1,4 +1,5 @@
-baseURL = "https://quartz.jzhao.xyz/"
+title = "Braindump"
+baseURL = "https://braindump.com/"
 languageCode = "en-us"
 relativeURLs = false
 disablePathToLower = true

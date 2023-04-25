@@ -7,4 +7,4 @@ Yet another knowlege repository managed by obsidian.
 
 ---
 
-- [[notes/rust]]
+- [[rust]]
