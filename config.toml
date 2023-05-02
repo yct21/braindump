@@ -1,5 +1,5 @@
 title = "Braindump"
-baseURL = "https://braindump.com/"
+baseURL = "https://yct21.github.io/braindump/"
 languageCode = "en-us"
 relativeURLs = false
 disablePathToLower = true
