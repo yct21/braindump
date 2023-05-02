@@ -6,11 +6,6 @@ tags:
 - asyncronous-programming
 ---
 
-> [!todo] Todo:
-> 
-
----
-
 A future represents an [[asynchronous programming|asynchronous]] computation that can produce a value at some time. 
 
 In rust a future is a type or value of type that implements `std::future::Future` trait.

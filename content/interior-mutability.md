@@ -5,7 +5,7 @@ tags:
 - rust
 ---
 
-In Rust some types provide _interior mutability_, that allows mutating a value through a [[reference|shared reference]].
+In [[rust|Rust]] some types provide _interior mutability_, that allows mutating a value through a [[reference-rust|shared reference]].
 
 These types normally fall into two categories:
 

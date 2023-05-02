@@ -8,6 +8,7 @@ ignoreFiles = [
     "/content/private/*",
     "/content/clippings/*",
     "/content/scratch/*",
+    "/content/excalidraw/*.md",
 ]
 summaryLength = 20
 paginate = 100

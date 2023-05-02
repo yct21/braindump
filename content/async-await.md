@@ -67,7 +67,7 @@ async fn some_async_process<T>(rx: Receiver<T>, tx: Sender<T>) {
 
 The compiler would generate a state machine like this:
 
-![[excalidraw/async-await-statemachine.light.png]]
+![[images/async-await-statemachine.png]]
 
 Each node in state machine can be treated like a variant of enum. It would also store all variables in the continuation as its internal data. This makes this state machine like a enumeration:
 
