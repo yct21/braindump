@@ -21,7 +21,7 @@ In rust a future is a type or value of type that implements `std::future::Future
 
 ## How do we use future?
 
-Most asynchronous runtime would come up with their own [[leaf future|leaf future]] as API. And many libraries have asynchronous interfaces. We could use [[async-await]] to compose the these APIs into a task and run it on the runtime.
+Most asynchronous runtime would come up with their own [[leaf-future|leaf future]] as API. And many libraries have asynchronous interfaces. We could use [[async-await]] to compose the these APIs into a task and run it on the runtime.
 
 ```rust
 use mini_redis::{client, Result};
