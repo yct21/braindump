@@ -1,0 +1,183 @@
+{
+  "strategy": "english-only",
+  "cedictPath": "./cedict_ts.u8",
+  "matchStrategy": "prefix",
+  "fuzzyMatch": true,
+  "matchingWithoutEmoji": true,
+  "treatAccentDiacriticsAsAlphabeticCharacters": false,
+  "maxNumberOfSuggestions": 5,
+  "maxNumberOfWordsAsPhrase": 3,
+  "minNumberOfCharactersTriggered": 0,
+  "minNumberOfWordsTriggeredPhrase": 1,
+  "complementAutomatically": true,
+  "delayMilliSeconds": 0,
+  "disableSuggestionsDuringImeOn": false,
+  "insertAfterCompletion": false,
+  "firstCharactersDisableSuggestions": ":/^",
+  "useCommonPrefixCompletionOfSuggestion": false,
+  "patternsToSuppressTrigger": [
+    "^~~~.*",
+    "^```.*"
+  ],
+  "showMatchStrategy": true,
+  "showComplementAutomatically": true,
+  "showIndexingStatus": true,
+  "descriptionOnSuggestion": "Short",
+  "selectSuggestionKeys": "Tab",
+  "additionalCycleThroughSuggestionsKeys": "None",
+  "disableUpDownKeysForCycleThroughSuggestionsKeys": false,
+  "openSourceFileKey": "None",
+  "propagateEsc": false,
+  "enableCurrentFileComplement": true,
+  "currentFileMinNumberOfCharacters": 0,
+  "onlyComplementEnglishOnCurrentFileComplement": true,
+  "enableCurrentVaultComplement": false,
+  "currentVaultMinNumberOfCharacters": 0,
+  "includeCurrentVaultPathPrefixPatterns": "",
+  "excludeCurrentVaultPathPrefixPatterns": "",
+  "includeCurrentVaultOnlyFilesUnderCurrentDirectory": false,
+  "enableCustomDictionaryComplement": false,
+  "customDictionaryPaths": "https://raw.githubusercontent.com/first20hours/google-10000-english/master/google-10000-english-no-swears.txt",
+  "columnDelimiter": "Tab",
+  "customDictionaryWordRegexPattern": "",
+  "delimiterToHideSuggestion": "",
+  "delimiterToDivideSuggestionsForDisplayFromInsertion": "",
+  "caretLocationSymbolAfterComplement": "",
+  "displayedTextSuffix": " => ...",
+  "enableInternalLinkComplement": true,
+  "suggestInternalLinkWithAlias": true,
+  "excludeInternalLinkPathPrefixPatterns": "",
+  "updateInternalLinksOnSave": true,
+  "insertAliasTransformedFromDisplayedInternalLink": {
+    "enabled": false,
+    "beforeRegExp": "",
+    "after": ""
+  },
+  "enableFrontMatterComplement": true,
+  "frontMatterComplementMatchStrategy": "inherit",
+  "insertCommaAfterFrontMatterCompletion": false,
+  "intelligentSuggestionPrioritization": {
+    "maxDaysToKeepHistory": 30,
+    "maxNumberOfHistoryToKeep": 0
+  },
+  "disableOnMobile": false,
+  "showLogAboutPerformanceInConsole": false,
+  "selectionHistoryTree": {
+    "rust": {
+      "rust": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1682068055874
+        },
+        "frontMatter": {
+          "count": 12,
+          "lastUpdated": 1682608968340
+        }
+      }
+    },
+    "generator": {
+      "generator": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1682074107495
+        }
+      }
+    },
+    "asyncronous": {
+      "asyncronous": {
+        "frontMatter": {
+          "count": 2,
+          "lastUpdated": 1682074304596
+        }
+      }
+    },
+    "programming": {
+      "programming": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1682074306191
+        }
+      }
+    },
+    "enumeration": {
+      "enumeration": {
+        "currentFile": {
+          "count": 3,
+          "lastUpdated": 1682343197384
+        }
+      }
+    },
+    "previous": {
+      "previous": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1682319848824
+        }
+      }
+    },
+    "asyncronous-programming": {
+      "asyncronous-programming": {
+        "frontMatter": {
+          "count": 5,
+          "lastUpdated": 1682608971072
+        }
+      }
+    },
+    "asynchronous": {
+      "asynchronous": {
+        "currentFile": {
+          "count": 4,
+          "lastUpdated": 1682410466644
+        }
+      }
+    },
+    "async-await": {
+      "async-await": {
+        "internalLink": {
+          "count": 3,
+          "lastUpdated": 1682498140308
+        }
+      }
+    },
+    "library": {
+      "library": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1682403929974
+        }
+      }
+    },
+    "scheduled": {
+      "scheduled": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1682409919232
+        }
+      }
+    },
+    "implements": {
+      "implements": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1682413566526
+        }
+      }
+    },
+    "exclusively": {
+      "exclusively": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1682497417642
+        }
+      }
+    },
+    "borrowed": {
+      "borrowed": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1682497420428
+        }
+      }
+    }
+  }
+}
