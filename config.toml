@@ -10,7 +10,7 @@ ignoreFiles = [
     "/content/scratch/*",
 ]
 summaryLength = 20
-paginate = 20
+paginate = 100
 enableGitInfo = true
 
 [markup]
